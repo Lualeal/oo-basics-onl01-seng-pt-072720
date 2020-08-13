@@ -50,5 +50,13 @@ class Shoe
 
 end 
 
-
+  it 'has a material' do
+      shoe.material = "suede"
+      expect(shoe.material).to eq("suede")
+    end
+it 'makes the shoe\'s condition new' do
+      shoe.condition = "old"
+      shoe.cobble
+      expect(shoe.condition).to eq("new")
+    end
 
