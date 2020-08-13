@@ -49,5 +49,9 @@ class Shoe
    @self.condition = new 
  end 
  
+ def self.condition 
+   @self.condiiton
+ end 
+ 
 end 
 
