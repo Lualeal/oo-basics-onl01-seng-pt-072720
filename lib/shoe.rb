@@ -41,6 +41,9 @@ class Shoe
     @condition 
   end 
   
+  def shoe 
+    puts ""
+  
 
 end 
 
