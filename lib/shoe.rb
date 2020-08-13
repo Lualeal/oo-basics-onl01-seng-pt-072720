@@ -17,21 +17,31 @@ class Shoe
     @color 
   end 
   
-  def size 
+  def size=(size)
+    @size = size 
+  end 
+  
+  def size
     @size
   end 
   
-  def material 
+  def material=(material)
+    @material = material
+  end 
+  
+  def material
     @material
   end 
   
-  def condition 
-    @condition
+  def condition=(condition)
+    @condition = condition
   end 
   
-  def 
+  def condition 
+    @condition 
+  end 
   
-  
+
 end 
 
 
